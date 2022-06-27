@@ -10,7 +10,7 @@ from google.cloud import storage
 
 import ssl
 
-BUCKET_NAME='utility-folder-353814-meubucket'
+BUCKET_NAME='treinamento_modelo_trabalho_final'
 
 # Determine CSV, label, and key columns
 CSV_COLUMNS = ["etnia", 
