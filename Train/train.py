@@ -89,6 +89,7 @@ X_train, X_test, y_train, y_test = prepareDataForTraining(dataset)
 trainClassifierModel(classifierRF)
 
 #
-gcs_folder_name=datetime.datetime.now().strftime('classifier_emprestimo_%Y%m%d_%H%M%S')
+#gcs_folder_name=datetime.datetime.now().strftime('classifier_emprestimo_%Y%m%d_%H%M%S')
+gcs_folder_name='classifier_emprestimo'
 uploadFilestoGCStorage(gcs_folder_name)
 
