@@ -22,7 +22,7 @@ cd mlops/Flask/gcpVM/
 
 cd ~/mlops/Flask/app
 
-gsutil cp gs://treinamento_modelo_trabalho_final/classifier_emprestimo_20220627_234054/model.joblib .
+gsutil cp gs://treinamento_modelo_trabalho_final/classifier_emprestimo/model.joblib .
 
 #Buildando imagem.
 
